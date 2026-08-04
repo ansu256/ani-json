@@ -73,7 +73,7 @@ output = {
 }
 
 
-Path("animeko-merged.json").write_text(
+Path("auto.json").write_text(
     json.dumps(
         output,
         ensure_ascii=False,
